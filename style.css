@@ -1,9 +1,10 @@
+
 .raleway-font {
   font-family: "Raleway", sans-serif;
   color: #252432;
 }
 .raleway-subtile{
-    color: #252432;
+    color: rgba(37, 36, 50, 50%);
     
 }
 
@@ -83,7 +84,55 @@ nav{
     font-size: 16;
     border-radius: 10px;
     
+}
+/* main section  */
+.main-section{
+    justify-items: center;
+    margin: 116px 159px 0 140px;
+}
 
+
+/* Action Section  */
+.action-section{
+    display: flex;
+    width: 1140px;
+    height: 328px;
+    
+    justify-content: space-between;
+   
+
+
+}
+.action-box{
+    width: 517px;
+    height: 203px;
+    
+   
     
 
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-description{
+    font-size: 24px;
+}
+.action-btn{
+    font-family: "Raleway",sans-serif;
+    width: 229px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    
+
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border: 2px solid tomato;
+    border-radius: 48px;
+    overflow: hidden;
 }
