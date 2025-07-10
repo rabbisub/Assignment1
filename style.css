@@ -30,6 +30,10 @@
     font-size: 16;
     border-radius: 10px;
 
+
+}
+.btn-style1:hover{
+    background-color: #252432;
 }
 
 
@@ -85,6 +89,9 @@ nav{
     border-radius: 10px;
     
 }
+.btn-style2:hover{
+    background-color: #252432;
+}
 /* main section  */
 .main-section{
     justify-items: center;
@@ -128,6 +135,9 @@ nav{
     font-size: 16px;
     
 
+}
+.action-btn:hover{
+    background-color: #252432;
 }
 .action-img{
     width: 403px;
