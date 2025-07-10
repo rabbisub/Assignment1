@@ -132,7 +132,52 @@ nav{
 .action-img{
     width: 403px;
     height: 328px;
-    border: 2px solid tomato;
     border-radius: 48px;
     overflow: hidden;
+}
+
+
+/* Productive Users Section */
+.Productive-Users-Section {
+  width: 1140px;
+  height: 306px;
+  background-color: rgba(78, 71, 255, 10%);
+  border-radius: 24px;
+  padding: 40px;
+  margin-top: 116px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.product-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  
+ 
+}
+
+.productive-title {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.total {
+  text-align: center;
+}
+
+.user {
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  margin: 0;
+  color: #4E47FF;
+}
+
+.au-dep {
+  font-size: 20px;
+  
 }
