@@ -1,3 +1,4 @@
+
 .raleway-font {
   font-family: "Raleway", sans-serif;
   color: #252432;
@@ -93,8 +94,10 @@ nav{
 }
 /* main section  */
 .main-section{
+    
     justify-items: center;
     margin: 116px 159px 0 140px;
+    justify-content: center;
 }
 
 
@@ -269,4 +272,74 @@ nav{
     font-size: 12px;
     color: #888;
     margin: 0;
+}
+/* ready-foucus section  */
+.ready-foucus{
+    max-width: 1140px;
+    max-height: 696.77px;
+    text-align: center;
+    padding: 71px 150px;
+    margin-top: 137px;
+    
+}
+.ready-foucus h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000;
+}
+.ready-foucus p{
+    font-size: small;
+}
+.ready-foucus img{
+    border-radius: 48px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+  /* get in touch section  */
+.get-in-touch-section{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top: 116px;
+}
+.get-in-touch-section h2{
+    width: 528px;
+    height: 232px;
+    font-size:97px ;
+    font-weight: bold;
+    color: #000;
+}
+.get-touch-info label{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px;
+
+}
+
+.get-touch-info input,
+.get-touch-info textarea {
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    padding: 16px 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.get-touch-info button{
+    font-family: "Raleway",sans-serif;
+    width: 300px;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+}
+.get-touch-info button:hover{
+    background-color: #252432;
 }
