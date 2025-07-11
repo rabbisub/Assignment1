@@ -343,3 +343,46 @@ nav{
 .get-touch-info button:hover{
     background-color: #252432;
 }
+
+/* footer-section  */
+.footer-section{
+    background-color: #ffffff;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px ;
+    
+}
+.footer-end{
+    width: 531px;
+    text-align: center;
+   
+}
+.footer-end h1{
+    font-size: 100px;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+    margin-bottom: 20px;
+}
+.footer-end p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #8987A1;
+
+}
+.footer-end ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-end ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+
+}
